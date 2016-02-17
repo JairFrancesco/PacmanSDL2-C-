@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="22" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="BolaLuz" value="comida.png"/>
+  <property name="fantasma2" value="f2.png"/>
+  <property name="fantasma3" value="f3.png"/>
+  <property name="jugador" value="pacman.png"/>
+ </properties>
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32" margin="0" spacing="0">
+  <image source="tile2.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Mapa" width="20" height="22">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlEsKACAIRO3+l24VhMw4VhItGghK62kfMzNrRW1o7u8K8Rro+/iRHfFWcmF7ZH51Pop3ooiXiZtZw/am7IhfKfVemM+v9TzmR3OyPJbzbn6rUvXB7i2qu4jH4qPxzfqo/P++3lEHXR4Ajg==
+  </data>
+ </layer>
+ <objectgroup name="Objetos del Juego" width="20" height="22">
+  <object name="pacman" type="Jugador" x="128" y="384" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="jugador"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma3" type="Fantasma" x="288" y="192" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma3"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="64" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="96" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="128" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="160" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="192" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="288" y="480" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="320" y="448" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="352" y="448" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="416" y="480" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="480" y="480" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="512" y="480" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="551" y="152" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="542" y="117" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="545" y="56" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="510" y="36" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="472" y="30" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="440" y="30" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="404" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="364" y="34" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="334" y="35" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="298" y="35" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="265" y="32" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="232" y="31" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="246" y="94" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="279" y="96" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="318" y="95" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="354" y="96" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="356" y="132" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="402" y="161" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="383" y="231" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="314" y="255" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="246" y="254" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="187" y="249" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="120" y="253" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="78" y="254" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="63" y="192" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="130" y="171" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="133" y="116" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="62" y="361" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="60" y="407" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="65" y="466" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="110" y="475" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="153" y="476" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="70" y="287" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="70" y="324" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="104" y="354" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="101" y="389" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="177" y="376" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="213" y="379" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="256" y="382" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="294" y="384" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="332" y="385" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="371" y="387" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="409" y="386" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="448" y="387" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="475" y="390" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="484" y="355" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="485" y="318" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="480" y="276" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="518" y="256" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="487" y="251" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="444" y="252" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="420" y="257" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="383" y="260" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="386" y="288" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="387" y="318" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="357" y="317" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="385" y="348" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="540" y="294" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="543" y="322" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="542" y="349" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="544" y="387" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="542" y="446" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="515" y="442" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="541" y="473" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="481" y="168" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="448" y="157" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="447" y="128" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="163" y="72" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="68" y="65" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="68" y="92" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="69" y="120" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="66" y="152" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="98" y="162" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="95" y="191" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="164" y="156" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="193" y="162" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="225" y="161" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="259" y="159" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="291" y="163" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="326" y="165" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="188" y="189" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="224" y="193" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="196" y="222" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="157" y="259" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="159" y="291" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="158" y="323" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="216" y="312" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="251" y="318" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="286" y="318" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="286" y="275" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="512" y="192" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="542" y="195" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="545" y="226" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="552" y="255" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="226" y="411" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="227" y="438" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="191" y="449" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="151" y="443" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="130" y="446" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="200" y="489" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="227" y="485" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="265" y="488" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="38" y="254" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="328" y="482" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="357" y="482" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="393" y="481" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="417" y="449" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="415" y="421" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="447" y="450" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="451" y="476" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="224" y="346" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="133" y="349" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="162" y="348" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="161" y="386" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="325" y="193" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="380" y="189" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="416" y="197" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="417" y="228" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="354" y="163" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="381" y="162" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="385" y="132" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="384" y="96" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="450" y="94" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="513" y="94" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="516" y="132" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="215" y="94" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="184" y="96" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="158" y="96" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="124" y="87" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="161" y="119" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="580" y="252" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="352" y="258" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="284" y="251" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="217" y="248" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="comida1" type="BolaLuz" x="229" y="226" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="BolaLuz"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma3" type="Fantasma" x="287" y="420" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma3"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma3" type="Fantasma" x="193" y="190" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma3"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma3" type="Fantasma" x="482" y="252" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma3"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma3" type="Fantasma" x="350" y="94" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma3"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+  <object name="fantasma2" type="Fantasma" x="482" y="195" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="24"/>
+    <property name="textureID" value="fantasma2"/>
+    <property name="textureWidth" value="24"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

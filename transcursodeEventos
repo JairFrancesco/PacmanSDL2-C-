@@ -1,0 +1,94 @@
+Eventos: COntrolador de eventos
+Juego::controlarEventos
+ManejadorDeEntrada::Instancia()->actualizar()
+onKeyDown() ; keyStates = SDL_GetKeyboardState(0);
+
+
+
+Eventos: Actualizar
+Main : Actualizar
+Juego : Actualizar
+MaquinaEstadoJuego: Actualizar
+vEstadosJuego: Actualizar
+EstadoPlay: Actualizar
+Nivel : Actualizar
+vCapas: Actualizar
+CapaObjeto: Actualizar,verificarColisionJugadorEnemigo ,VerificarColisionJUgadorTile, AQUI SE LLAMA A JUGADOR::actualizar
+CapaObjeto: Actualizar, colision.verificarColisionJugadorEnemigo(pNivel->getJugador(), (const std::vector<ObjetoJuego*>&)vObjetosJuego);
+
+
+Eventos: Render
+Juego::render()
+pMaquinaEstadoJuego->renderizar()
+vEstadosJuego.back()->renderizar();
+EstadoPlay::renderizar()
+pNivel->renderizar()
+vCapas[i]->renderizar();
+
+
+**
+Primero se verifica si ha colisionado
+despues se actualiza el Jugador, Jugador::Actualizar()
+
+
+temporal, colisionador
+
+
+        //std::cout<<"Velocidad X:"<<pJugador->getVelocidad().getX()<<std::endl;
+//        if (pJugador->getVelocidad().getX() > 0 || pJugador->getVelocidad().getY() > 0)
+//        {
+//            columnaTile = ((pJugador->getPosicion().getX() + jugadorX + pJugador->getAncho()) / pCapaTile->getMagnitudTile());
+//            filaTile = ((pJugador->getPosicion().getY()+ jugadorY + pJugador->getAltura()) / pCapaTile->getMagnitudTile());
+//            std::cout<<"velocidad mayor" <<filaTile <<"   "<<columnaTile <<std::endl;
+//            tileid = tiles[filaTile + y+1][columnaTile + x+1];
+//        }
+//
+//        else
+//
+//        if(pJugador->getVelocidad().getX() < 0)
+//        {
+//            columnaTile = ((pJugador->getPosicion().getX() + jugadorX + pJugador->getAncho()) / pCapaTile->getMagnitudTile());
+//            filaTile =((pJugador->getPosicion().getY()+ jugadorY + pJugador->getAltura()) / pCapaTile->getMagnitudTile());
+//
+//            std::cout<< "Velocidad:"<< pJugador->getVelocidad().getX() <<std::endl;
+//            std::cout<< "Velocidad:"<< pJugador->getVelocidad().getY() <<std::endl;
+//            //std::cout<<" iz colu:"<<a-1 +x<<"  fil:"<<b+y<<std::endl;
+//            std::cout<<filaTile + y<<"   "<<columnaTile + x -1<<std::endl;
+//            tileid = tiles[filaTile + y][columnaTile + x -1];
+//            std::cout<< tileid<<std::endl;
+//        }
+//        else if (pJugador->getVelocidad().getY() < 0)
+//        {
+//            float a = ((pJugador->getPosicion().getX() + jugadorX + pJugador->getAncho()) / pCapaTile->getMagnitudTile());
+//            float b =((pJugador->getPosicion().getY()+ jugadorY + pJugador->getAltura()) / pCapaTile->getMagnitudTile());
+//            columnaTile = a;
+//            filaTile = b;
+////            std::cout<< "Velocidad:"<< pJugador->getVelocidad().getY()<<std::endl;
+////            std::cout<<"arriba colu:"<<a+x<<"  fil:"<<b-2+y<<std::endl;
+//
+//            tileid = tiles[filaTile + y -2][columnaTile + x];
+//        }
+//
+//        else if(pJugador->getVelocidad().getX() >= 0 || pJugador->getVelocidad().getY() >= 0)
+//
+//        {
+//            //std::cout<<"Posicion X;"<<pJugador->getPosicion().getX()<<std::endl;
+//
+//            columnaTile = ((pJugador->getPosicion().getX() + jugadorX + pJugador->getAncho()) / pCapaTile->getMagnitudTile());
+//            filaTile =((pJugador->getPosicion().getY()+ jugadorY + pJugador->getAltura()) / pCapaTile->getMagnitudTile());
+//
+////            std::cout<<"colu:"<<a+x<<"  fil:"<<b+y<<std::endl;
+////            columnaTile = a;
+////            filaTile = b;
+////            std::cout<<filaTile<<"   "<<columnaTile<<std::endl;
+//            tileid = tiles[filaTile + y][columnaTile + x];
+//        }
+//        else if(pJugador->getVelocidad().getX() < 0 || pJugador->getVelocidad().getY() < 0)
+//        {
+//            std::cout<<"entro al menor:"<<std::endl;
+//            //std::cout<<"Posicion X;"<<pJugador->getPosicion().getX()<<std::endl;
+//            columnaTile = ((pJugador->getPosicion().getX())/ pCapaTile->getMagnitudTile());
+//            filaTile = ((pJugador->getPosicion().getY())/ pCapaTile->getMagnitudTile());
+//            tileid = tiles[filaTile + y ][columnaTile + x ];
+//        }
+	

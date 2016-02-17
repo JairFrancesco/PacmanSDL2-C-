@@ -1,0 +1,393 @@
+# depslib dependency file v1.0
+1447486301 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoJuego.cpp
+	"EstadoJuego.h"
+
+1447662645 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoJuego.h
+	<iostream>
+	<vector>
+
+1451970050 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Juego.cpp
+	<iostream>
+	"Juego.h"
+	<AdministradorTexturas.h>
+	<ManejadorEntrada.h>
+	<EstadoMainMenu.h>
+	<FabricaObjetosJuego.h>
+	<BotonMenu.h>
+	<GraficoAnimado.h>
+	<Jugador.h>
+	<Sonido.h>
+	<EstadoGameOver.h>
+	<Fantasma.h>
+	<BolaLuz.h>
+
+1447487852 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Juego.h
+	<vector>
+	<MaquinaEstadoJuego.h>
+	<SDL2/SDL.h>
+
+1447486344 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/MaquinaEstadoJuego.h
+	<EstadoJuego.h>
+
+1447485981 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Sonido.h
+	<iostream>
+	<map>
+	<string>
+	<SDL2/SDL_mixer.h>
+
+1447486622 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/MaquinaEstadoJuego.cpp
+	"MaquinaEstadoJuego.h"
+	<iostream>
+
+1447487893 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Sonido.cpp
+	"Sonido.h"
+
+1447881871 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/main.cpp
+	<stdio.h>
+	<iostream>
+	<Juego.h>
+
+1448214974 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/AdministradorTexturas.cpp
+	"AdministradorTexturas.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL.h>
+
+1447829904 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/AdministradorTexturas.h
+	<iostream>
+	<string>
+	<map>
+	<SDL2/SDL.h>
+
+1448442703 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/ManejadorEntrada.h
+	<SDL2/SDL.h>
+	<iostream>
+	<vector>
+	<Vector2D.h>
+	<Juego.h>
+
+1447487069 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Vector2D.h
+	<math.h>
+
+1448214038 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/ManejadorEntrada.cpp
+	"ManejadorEntrada.h"
+
+1447487037 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Vector2D.cpp
+	"Vector2D.h"
+
+1447490409 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/CargadorParametros.cpp
+	"CargadorParametros.h"
+
+1447530032 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/CargadorParametros.h
+	<string>
+
+1447489506 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/ObjetoJuego.cpp
+	"ObjetoJuego.h"
+
+1448440741 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/ObjetoJuego.h
+	"CargadorParametros.h"
+	"Vector2D.h"
+	<string>
+	<memory>
+	<iostream>
+
+1447490534 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/ObjetoPacman.cpp
+	"ObjetoPacman.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+
+1448440744 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/ObjetoPacman.h
+	<SDL2/SDL.h>
+	<ObjetoJuego.h>
+
+1447491086 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/FabricaObjetosJuego.cpp
+	"FabricaObjetosJuego.h"
+
+1447520439 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/FabricaObjetosJuego.h
+	<string>
+	<iostream>
+	<map>
+	<ObjetoJuego.h>
+
+1447650259 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/BotonMenu.cpp
+	"BotonMenu.h"
+	"ManejadorEntrada.h"
+
+1447650232 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/BotonMenu.h
+	"ObjetoPacman.h"
+	"FabricaObjetosJuego.h"
+
+1452006672 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Jugador.cpp
+	"Jugador.h"
+	<memory>
+	<Sonido.h>
+	<ManejadorEntrada.h>
+	<Juego.h>
+	<Nivel.h>
+
+1448440844 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Jugador.h
+	<ObjetoPacman.h>
+	<FabricaObjetosJuego.h>
+
+1447493968 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Layer.cpp
+	"Layer.h"
+
+1447493946 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Layer.h
+
+1447493904 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Level.cpp
+	"Level.h"
+
+1447493904 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Level.h
+
+1447495210 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/LevelParser.cpp
+	"LevelParser.h"
+
+1447493871 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/LevelParser.h
+	<iostream>
+	<vector>
+	"tinyxml.h"
+
+1447521766 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Enemigo.cpp
+	"Enemigo.h"
+
+1448783799 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Enemigo.h
+	<iostream>
+	<ObjetoPacman.h>
+
+1447829458 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoMenu.cpp
+	"EstadoMenu.h"
+
+1447815465 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoMenu.h
+	<EstadoJuego.h>
+
+1447530041 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/GraficoAnimado.cpp
+	"GraficoAnimado.h"
+
+1447522079 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/GraficoAnimado.h
+	"FabricaObjetosJuego.h"
+	"ObjetoPacman.h"
+
+1447543268 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoParser.cpp
+	"EstadoParser.h"
+	<Juego.h>
+	<CargadorParametros.h>
+	<FabricaObjetosJuego.h>
+	<AdministradorTexturas.h>
+
+1447542440 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoParser.h
+	<iostream>
+	<vector>
+	<tinyxml.h>
+
+1305426297 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinystr.cpp
+	"tinystr.h"
+
+1305426297 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinystr.h
+	<assert.h>
+	<string.h>
+
+1305426297 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1447396819 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426297 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426297 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1447825223 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoMainMenu.cpp
+	"EstadoMainMenu.h"
+	<iostream>
+	"AdministradorTexturas.h"
+	"Juego.h"
+	<BotonMenu.h>
+	<EstadoPlay.h>
+	<ManejadorEntrada.h>
+	"EstadoParser.h"
+	<assert.h>
+
+1447662580 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoMainMenu.h
+	<EstadoMenu.h>
+	<ObjetoJuego.h>
+
+1451971560 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoPlay.cpp
+	"EstadoPlay.h"
+	"EstadoGameOver.h"
+	"EstadoPausa.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+	"ManejadorEntrada.h"
+	"NivelParser.h"
+	"Nivel.h"
+
+1447738426 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoPlay.h
+	"EstadoJuego.h"
+	"Colision.h"
+	"Nivel.h"
+	"Vector2D.h"
+
+1447650129 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Callback.cpp
+	"Callback.h"
+
+1447650121 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Callback.h
+
+1447823701 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoGameOver.cpp
+	"EstadoGameOver.h"
+	"EstadoMainMenu.h"
+	"EstadoPlay.h"
+	"AdministradorTexturas.h"
+	"GraficoAnimado.h"
+	"Juego.h"
+	"BotonMenu.h"
+	"ManejadorEntrada.h"
+	"EstadoParser.h"
+
+1447739538 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoGameOver.h
+	<iostream>
+	<vector>
+	<EstadoMenu.h>
+
+1447653010 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Capa.cpp
+	"Capa.h"
+
+1447740454 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Capa.h
+
+1448821758 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/CapaObjeto.cpp
+	"CapaObjeto.h"
+	<Vector2D.h>
+	<Juego.h>
+	<Nivel.h>
+
+1447740640 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/CapaObjeto.h
+	<iostream>
+	<vector>
+	<Capa.h>
+	<Colision.h>
+	<ObjetoJuego.h>
+
+1451954929 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Colision.h
+	<vector>
+	"Vector2D.h"
+	<iostream>
+	<SDL2/SDL.h>
+
+1447662196 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Nivel.h
+	<iostream>
+	<vector>
+	<Capa.h>
+	<NivelParser.h>
+	<Jugador.h>
+	<Colision.h>
+
+1447815699 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/NivelParser.h
+	<iostream>
+	<vector>
+	"tinyxml.h"
+
+1448224845 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/CapaTile.cpp
+	"CapaTile.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+
+1447825269 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/CapaTile.h
+	<iostream>
+	<vector>
+	<Capa.h>
+	<Nivel.h>
+	<Vector2D.h>
+
+1451968784 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Colision.cpp
+	"Colision.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"CapaTile.h"
+	<ManejadorEntrada.h>
+
+1448234056 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/EstadoPausa.cpp
+	"EstadoPausa.h"
+	"EstadoMainMenu.h"
+	"EstadoPlay.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+	"BotonMenu.h"
+	"ManejadorEntrada.h"
+	"EstadoParser.h"
+
+1447738755 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/EstadoPausa.h
+	<iostream>
+	<vector>
+	<EstadoMenu.h>
+
+1447867156 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Nivel.cpp
+	"Nivel.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+	"Capa.h"
+	"CapaTile.h"
+	"math.h"
+	<iostream>
+
+1448300205 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/NivelParser.cpp
+	<zlib.h>
+	<string>
+	"NivelParser.h"
+	"AdministradorTexturas.h"
+	"Juego.h"
+	"CapaObjeto.h"
+	"CapaTile.h"
+	"FabricaObjetosJuego.h"
+	"base64.h"
+	"Nivel.h"
+
+1403987946 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/base64.h
+	<string>
+	<vector>
+
+1403987946 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/base64.cpp
+	"base64.h"
+	<iostream>
+
+1448827429 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Fantasma.cpp
+	"Fantasma.h"
+	"Colision.h"
+
+1448821519 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Fantasma.h
+	<iostream>
+	<FabricaObjetosJuego.h>
+	<Sonido.h>
+	<math.h>
+	<Enemigo.h>
+
+1451970075 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/BolaLuz.cpp
+	"BolaLuz.h"
+
+1451968960 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/BolaLuz.h
+	<iostream>
+	<FabricaObjetosJuego.h>
+	<Sonido.h>
+	<math.h>
+	<Comida.h>
+
+1451955494 /home/jairfrancesco/Documentos/ClassicPacmanSDL2/include/Comida.h
+	<iostream>
+	<ObjetoPacman.h>
+
+1448990272 source:/home/jairfrancesco/Documentos/ClassicPacmanSDL2/src/Comida.cpp
+	"Comida.h"
+

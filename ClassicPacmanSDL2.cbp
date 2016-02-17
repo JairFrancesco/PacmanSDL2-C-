@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ClassicPacmanSDL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="include/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ClassicPacmanSDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ClassicPacmanSDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lz" />
+		</Linker>
+		<Unit filename="include/AdministradorTexturas.h" />
+		<Unit filename="include/BolaLuz.h" />
+		<Unit filename="include/BotonMenu.h" />
+		<Unit filename="include/Callback.h" />
+		<Unit filename="include/Capa.h" />
+		<Unit filename="include/CapaObjeto.h" />
+		<Unit filename="include/CapaTile.h" />
+		<Unit filename="include/CargadorParametros.h" />
+		<Unit filename="include/Colision.h" />
+		<Unit filename="include/Comida.h" />
+		<Unit filename="include/Enemigo.h" />
+		<Unit filename="include/EstadoGameOver.h" />
+		<Unit filename="include/EstadoJuego.h" />
+		<Unit filename="include/EstadoMainMenu.h" />
+		<Unit filename="include/EstadoMenu.h" />
+		<Unit filename="include/EstadoParser.h" />
+		<Unit filename="include/EstadoPausa.h" />
+		<Unit filename="include/EstadoPlay.h" />
+		<Unit filename="include/FabricaObjetosJuego.h" />
+		<Unit filename="include/Fantasma.h" />
+		<Unit filename="include/GraficoAnimado.h" />
+		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/ManejadorEntrada.h" />
+		<Unit filename="include/MaquinaEstadoJuego.h" />
+		<Unit filename="include/Nivel.h" />
+		<Unit filename="include/NivelParser.h" />
+		<Unit filename="include/ObjetoJuego.h" />
+		<Unit filename="include/ObjetoPacman.h" />
+		<Unit filename="include/Sonido.h" />
+		<Unit filename="include/Vector2D.h" />
+		<Unit filename="include/base64.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AdministradorTexturas.cpp" />
+		<Unit filename="src/BolaLuz.cpp" />
+		<Unit filename="src/BotonMenu.cpp" />
+		<Unit filename="src/Callback.cpp" />
+		<Unit filename="src/Capa.cpp" />
+		<Unit filename="src/CapaObjeto.cpp" />
+		<Unit filename="src/CapaTile.cpp" />
+		<Unit filename="src/CargadorParametros.cpp" />
+		<Unit filename="src/Colision.cpp" />
+		<Unit filename="src/Comida.cpp" />
+		<Unit filename="src/Enemigo.cpp" />
+		<Unit filename="src/EstadoGameOver.cpp" />
+		<Unit filename="src/EstadoJuego.cpp" />
+		<Unit filename="src/EstadoMainMenu.cpp" />
+		<Unit filename="src/EstadoMenu.cpp" />
+		<Unit filename="src/EstadoParser.cpp" />
+		<Unit filename="src/EstadoPausa.cpp" />
+		<Unit filename="src/EstadoPlay.cpp" />
+		<Unit filename="src/FabricaObjetosJuego.cpp" />
+		<Unit filename="src/Fantasma.cpp" />
+		<Unit filename="src/GraficoAnimado.cpp" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Layer.cpp" />
+		<Unit filename="src/ManejadorEntrada.cpp" />
+		<Unit filename="src/MaquinaEstadoJuego.cpp" />
+		<Unit filename="src/Nivel.cpp" />
+		<Unit filename="src/NivelParser.cpp" />
+		<Unit filename="src/ObjetoJuego.cpp" />
+		<Unit filename="src/ObjetoPacman.cpp" />
+		<Unit filename="src/Sonido.cpp">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="src/Vector2D.cpp" />
+		<Unit filename="src/base64.cpp" />
+		<Unit filename="tinystr.cpp" />
+		<Unit filename="tinystr.h" />
+		<Unit filename="tinyxml.cpp" />
+		<Unit filename="tinyxml.h" />
+		<Unit filename="tinyxmlerror.cpp" />
+		<Unit filename="tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

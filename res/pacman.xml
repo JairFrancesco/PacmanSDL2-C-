@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<States>
+    <MENU>
+        <TEXTURES>
+            <texture filename="btnPlay.png" ID="playbutton"/>
+            <texture filename="btnPuntajes.png" ID="puntajesbutton"/>
+            <texture filename="btnSalir.png" ID="exitbutton"/>
+            <texture filename="pacmanLogo.png" ID="pacmanLogo"/>
+            <!-- <texture filename="animacionMenu.png" ID="animacionPacman"/> -->
+        </TEXTURES>
+        
+        <OBJECTS>
+        	<object type="GraficoAnimado" x="100" y="50" width="430" height="100" textureID="pacmanLogo" numFrames="1" animSpeed="1"/>
+            <!-- <object type="BotonMenu" x="100" y="50" width="430" height="100" textureID="pacmanLogo" numFrames="0" callbackID="1"/> --><!-- 
+            m_callbacks.push_back(0); //pushback 0 callbackID start from 1
+			m_callbacks.push_back(s_menuToPlay);//1
+			m_callbacks.push_back(s_exitFromMenu);//2
+			respecto a los callbackID -->
+            <object type="BotonMenu" x="240" y="430" width="180" height="60" textureID="playbutton" numFrames="0" callbackID="1"/>
+            <object type="BotonMenu" x="240" y="490" width="180" height="60" textureID="puntajesbutton" numFrames="0" callbackID="0"/>
+            <object type="BotonMenu" x="240" y="560" width="180" height="60" textureID="exitbutton" numFrames="0" callbackID="2"/>
+
+        </OBJECTS>
+    </MENU>
+    
+    <PLAY>
+        <TEXTURES>
+            <texture filename="pacman.png" ID="jugador"/>
+            <texture filename="helicopter2.png" ID="enemigo"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="Jugador" x="500" y="100" width="24" height="24" textureID="jugador" numFrames="2"/>
+            <object type="Enemigo" x="100" y="100" width="128" height="55" textureID="enemigo" numFrames="4"/>
+        </OBJECTS>
+    </PLAY>
+    
+    <PAUSE>
+        <TEXTURES>
+            <texture filename="resume.png" ID="resumebutton"/>
+            <texture filename="main.png" ID="mainbutton"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="BotonMenu" x="200" y="100" width="200" height="80" textureID="mainbutton" numFrames="0" callbackID="1"/>
+            <object type="BotonMenu" x="200" y="300" width="200" height="80" textureID="resumebutton" numFrames="0" callbackID="2"/>
+        </OBJECTS>
+    </PAUSE>
+
+    
+    <GAMEOVER>
+        <TEXTURES>
+            <texture filename="gameover.png" ID="gameovertext"/>
+            <texture filename="main.png" ID="mainbutton"/>
+            <texture filename="restart.png" ID="restartbutton"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="GraficoAnimado" x="200" y="100" width="190" height="30" textureID="gameovertext" numFrames="2" animSpeed="2"/>
+            <object type="BotonMenu" x="200" y="200" width="200" height="80" textureID="mainbutton" numFrames="0" callbackID="1"/>
+            <object type="BotonMenu" x="200" y="300" width="200" height="80" textureID="restartbutton" numFrames="0" callbackID="2"/>
+        </OBJECTS>
+    </GAMEOVER>
+</States>

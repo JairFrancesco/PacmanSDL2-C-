@@ -1,0 +1,31 @@
+Eventos: COntrolador de eventos
+Juego::controlarEventos
+ManejadorDeEntrada::Instancia()->actualizar()
+onKeyDown() ; keyStates = SDL_GetKeyboardState(0);
+
+
+
+Eventos: Actualizar
+Main : Actualizar
+Juego : Actualizar
+MaquinaEstadoJuego: Actualizar
+vEstadosJuego: Actualizar
+EstadoPlay: Actualizar
+Nivel : Actualizar
+vCapas: Actualizar
+CapaObjeto: Actualizar,verificarColisionJugadorEnemigo ,VerificarColisionJUgadorTile, AQUI SE LLAMA A JUGADOR::actualizar
+CapaObjeto: Actualizar, colision.verificarColisionJugadorEnemigo(pNivel->getJugador(), (const std::vector<ObjetoJuego*>&)vObjetosJuego);
+
+
+Eventos: Render
+Juego::render()
+pMaquinaEstadoJuego->renderizar()
+vEstadosJuego.back()->renderizar();
+EstadoPlay::renderizar()
+pNivel->renderizar()
+vCapas[i]->renderizar();
+
+
+**
+Primero se verifica si ha colisionado
+despues se actualiza el Jugador, Jugador::Actualizar()
